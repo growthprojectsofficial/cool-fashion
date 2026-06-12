@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
 import { ShoppingBag, MessageCircle, ChevronDown } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://wa.me/2348104353300?text=Hello%2C%20I%27m%20interested%20in%20ordering%20a%20pair%20of%20sneakers';
+const WHATSAPP_LINK = 'https://wa.me/2348104353300?text=Hello, I%27m interested in ordering a pair of sneakers';
 const staggerDelay = 0.2;
 
 export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex flex-col items-center justify-center px-4 md:px-12 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-radial from-[rgba(200,165,92,0.08)] via-transparent to-transparent" />
-      <div className="absolute inset-0 opacity-[0.08] bg-cover bg-center" style={{ backgroundImage: 'url(kix/sneakers%201.jpg)' }} />
+      <div className="absolute inset-0 opacity-[0.08] bg-cover bg-center" style={{ backgroundImage: 'url(kix/sneakers 1.jpg)' }} />
       <div className="relative z-10 text-center max-w-3xl mx-auto">
         <motion.p className="text-gold text-sm font-medium tracking-[6px] uppercase mb-6" initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 2.6 + staggerDelay }}>Step Into Luxury</motion.p>
         <motion.h1 className="font-display text-[40px] md:text-[72px] font-bold text-white leading-[1.1] mb-6" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 2.6 + staggerDelay * 2 }}>

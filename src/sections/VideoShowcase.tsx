@@ -2,13 +2,13 @@ import { motion } from 'framer-motion';
 import { useRef, useEffect } from 'react';
 
 const videos = [
-  { id: 1, caption: 'Crafting Excellence', src: 'vipx/39k%20(1).mp4' },
-  { id: 2, caption: 'Premium Materials', src: 'vipx/39k%20(2).mp4' },
-  { id: 3, caption: 'Designed for Comfort', src: 'vipx/39k%5B3%5D.mp4' },
-  { id: 4, caption: 'Street Ready Style', src: 'vipx/38k.mp4' },
-  { id: 5, caption: 'The Making Of', src: 'vipx/38k%20(2).mp4' },
-  { id: 6, caption: 'Walk the Talk', src: 'vipx/23%2C000%20glasses.mp4' },
-  { id: 7, caption: 'Luxury in Every Step', src: 'vipx/watch.mp4' },
+  { id: 1, caption: 'Crafting Excellence', src: 'vix/39k (1).mp4' },
+  { id: 2, caption: 'Premium Materials', src: 'vix/39k (2).mp4' },
+  { id: 3, caption: 'Designed for Comfort', src: 'vix/39k[3].mp4' },
+  { id: 4, caption: 'Street Ready Style', src: 'vix/38k.mp4' },
+  { id: 5, caption: 'The Making Of', src: 'vix/38k (2).mp4' },
+  { id: 6, caption: 'Walk the Talk', src: 'vix/23,000 glasses.mp4' },
+  { id: 7, caption: 'Luxury in Every Step', src: 'vix/watch.mp4' },
 ];
 
 function VideoCard({ video, index, isLarge = false }: { video: typeof videos[0]; index: number; isLarge?: boolean }) {

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { MessageCircle } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://wa.me/2348104353300?text=Hello%2C%20I%27d%20like%20to%20chat%20with%20you%20about%20your%20sneakers';
+const WHATSAPP_LINK = 'https://wa.me/2348104353300?text=Hello, I%27d like to chat with you about your sneakers';
 
 export default function AboutUs() {
   return (
@@ -21,7 +21,7 @@ export default function AboutUs() {
           </motion.div>
           <motion.div className="w-full lg:w-1/2" initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: '-100px' }} transition={{ duration: 0.8, delay: 0.2 }}>
             <div className="rounded-3xl overflow-hidden border border-[rgba(200,165,92,0.2)] aspect-[4/3]">
-              <img src="kix/sneakers%203.jpg" alt="Premium sneakers collection" className="w-full h-full object-cover" />
+              <img src="kix/sneakers 3.jpg" alt="Premium sneakers collection" className="w-full h-full object-cover" />
             </div>
           </motion.div>
         </div>

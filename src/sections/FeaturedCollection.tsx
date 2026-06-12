@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Star, Truck, Shield } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://wa.me/2348104353300?text=Hello%2C%20I%27m%20interested%20in%20ordering%20the%20Urban%20Glide%20Elite';
+const WHATSAPP_LINK = 'https://wa.me/2348104353300?text=Hello, I%27m interested in ordering the Urban Glide Elite';
 
 export default function FeaturedCollection() {
   return (
@@ -14,7 +14,7 @@ export default function FeaturedCollection() {
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-0">
           <motion.div className="w-full lg:w-[55%]" initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: '-100px' }} transition={{ duration: 0.8 }}>
             <div className="relative rounded-3xl overflow-hidden shadow-lg aspect-[4/5] md:aspect-square lg:aspect-[4/5]">
-              <img src="kix/sneakers%202.jpg" alt="Urban Glide Elite" className="w-full h-full object-cover" />
+              <img src="kix/sneakers 2.jpg" alt="Urban Glide Elite" className="w-full h-full object-cover" />
               <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-[rgba(200,165,92,0.3)] to-transparent" />
             </div>
           </motion.div>

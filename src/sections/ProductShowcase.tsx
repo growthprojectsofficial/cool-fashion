@@ -4,18 +4,18 @@ import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 
 const products = [
-  { id: 1, name: 'Royal Runner Pro', image: 'kix/sneakers%201.jpg' },
-  { id: 2, name: 'Urban Glide Elite', image: 'kix/sneakers%202.jpg' },
-  { id: 3, name: 'Street King Supreme', image: 'kix/sneakers%203.jpg' },
-  { id: 4, name: 'Velocity Boost X', image: 'kix/sneakers%204.jpg' },
-  { id: 5, name: 'Metro Flex Premium', image: 'kix/sneakers%205.jpg' },
-  { id: 6, name: 'Crown Step Luxe', image: 'kix/sneakers%206.jpg' },
-  { id: 7, name: 'Titan Walk Pro', image: 'kix/sneakers%207.jpg' },
-  { id: 8, name: 'Apex Runner V2', image: 'kix/sneakers%208.jpg' },
-  { id: 9, name: 'Noble Stride Elite', image: 'kix/sneakers%209.jpg' },
-  { id: 10, name: 'Legacy Air Supreme', image: 'kix/sneakers%2010.jpg' },
-  { id: 11, name: 'Prime Motion Lux', image: 'kix/sneakers%2011.jpg' },
-  { id: 12, name: 'Sovereign Step Pro', image: 'kix/sneakers%2012.jpg' },
+  { id: 1, name: 'Royal Runner Pro', image: 'kix/sneakers 1.jpg' },
+  { id: 2, name: 'Urban Glide Elite', image: 'kix/sneakers 2.jpg' },
+  { id: 3, name: 'Street King Supreme', image: 'kix/sneakers 3.jpg' },
+  { id: 4, name: 'Velocity Boost X', image: 'kix/sneakers 4.jpg' },
+  { id: 5, name: 'Metro Flex Premium', image: 'kix/sneakers 5.jpg' },
+  { id: 6, name: 'Crown Step Luxe', image: 'kix/sneakers 6.jpg' },
+  { id: 7, name: 'Titan Walk Pro', image: 'kix/sneakers 7.jpg' },
+  { id: 8, name: 'Apex Runner V2', image: 'kix/sneakers 8.jpg' },
+  { id: 9, name: 'Noble Stride Elite', image: 'kix/sneakers 9.jpg' },
+  { id: 10, name: 'Legacy Air Supreme', image: 'kix/sneakers 10.jpg' },
+  { id: 11, name: 'Prime Motion Lux', image: 'kix/sneakers 11.jpg' },
+  { id: 12, name: 'Sovereign Step Pro', image: 'kix/sneakers 12.jpg' },
 ];
 
 function getWhatsappLink() {

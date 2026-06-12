@@ -12,7 +12,7 @@ const navLinks = [
   { label: 'Contact', href: '#contact' },
 ];
 
-const WHATSAPP_LINK = 'https://wa.me/2348104353300?text=Hello%2C%20I%27m%20interested%20in%20ordering%20a%20pair%20of%20sneakers';
+const WHATSAPP_LINK = 'https://wa.me/2348104353300?text=Hello, I%27m interested in ordering a pair of sneakers';
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
