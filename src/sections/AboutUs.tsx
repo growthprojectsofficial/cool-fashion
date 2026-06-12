@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { MessageCircle } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://wa.me/08104353300?text=Hello%2C%20I%27d%20like%20to%20chat%20with%20you%20about%20your%20sneakers';
+const WHATSAPP_LINK = 'https://wa.me/2348104353300?text=Hello%2C%20I%27d%20like%20to%20chat%20with%20you%20about%20your%20sneakers';
 
 export default function AboutUs() {
   return (

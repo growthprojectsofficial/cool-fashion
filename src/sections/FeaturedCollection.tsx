@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Star, Truck, Shield } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://wa.me/08104353300?text=Hello%2C%20I%27m%20interested%20in%20ordering%20the%20Urban%20Glide%20Elite';
+const WHATSAPP_LINK = 'https://wa.me/2348104353300?text=Hello%2C%20I%27m%20interested%20in%20ordering%20the%20Urban%20Glide%20Elite';
 
 export default function FeaturedCollection() {
   return (

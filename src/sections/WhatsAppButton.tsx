@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { MessageCircle } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://wa.me/08104353300?text=Hello%2C%20I%27m%20interested%20in%20ordering%20a%20pair%20of%20sneakers';
+const WHATSAPP_LINK = 'https://wa.me/2348104353300?text=Hello%2C%20I%27m%20interested%20in%20ordering%20a%20pair%20of%20sneakers';
 
 export default function WhatsAppButton() {
   return (

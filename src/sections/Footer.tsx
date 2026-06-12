@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { MessageCircle, ShoppingBag, Phone, Facebook } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://wa.me/08104353300?text=Hello%2C%20I%27m%20interested%20in%20ordering%20a%20pair%20of%20sneakers';
+const WHATSAPP_LINK = 'https://wa.me/2348104353300?text=Hello%2C%20I%27m%20interested%20in%20ordering%20a%20pair%20of%20sneakers';
 const FACEBOOK_LINK = 'https://www.facebook.com/profile.php?id=100091653068289';
 
 const quickLinks = [
@@ -105,7 +105,7 @@ export default function Footer() {
             <div className="space-y-3">
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gold hover:text-[#B8944F] text-sm transition-colors">
                 <MessageCircle size={16} />
-                08104353300
+                2348104353300
               </a>
               <a href={FACEBOOK_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gold hover:text-[#B8944F] text-sm transition-colors">
                 <Facebook size={16} />

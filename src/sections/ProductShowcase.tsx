@@ -19,7 +19,7 @@ const products = [
 ];
 
 function getWhatsappLink() {
-  return `https://wa.me/08104353300?text=${encodeURIComponent("Hello, I am interested in this product. Is it still available?")}`;
+  return `https://wa.me/2348104353300?text=${encodeURIComponent("Hello, I am interested in this product. Is it still available?")}`;
 }
 
 function ProductCard({ product, index }: { product: typeof products[0]; index: number }) {
